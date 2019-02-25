@@ -181,6 +181,10 @@ class imageResources {
             return false;
         }
     }
+
+    function errorKey($message){
+        $this->dbReference->error($message);
+    }
 }
 
 ?>
